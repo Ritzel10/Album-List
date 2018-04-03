@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">AlbumList</string>
+
+    <string name="album_name_placeholder">album name</string>
+    <string name="artist_name_placeholder">artist</string>
+    <string name="album_genre_placeholder">album_genre</string>
+    <string name="album_cover_label">album cover</string>
+
+    <string name="EXTRA_ALBUM_ID">EXTRA_ALBUM_ID</string>
+
+    <string name="first_name_label">Imię:</string>
+    <string name="last_name_label">Nazwisko:</string>
+    <string name="birthday_label">Urodzony:</string>
+    <string name="form_button_label">Dodaj</string>
+
+    <string name="image_description">Ludzik</string>
+
+    <string name="tab1_title">Photos</string>
+    <string name="tab2_title">Artists</string>
+</resources>
