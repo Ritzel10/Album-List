@@ -1,38 +1,37 @@
 <!--?xml version="1.0" encoding="UTF-8"?-->
 <resources>
   <!--  MAIN COLORS -->
-  <color name="colorPrimary">#ffcdd2</color>
-  <color name="colorPrimaryLight">#ffffff</color>
-  <color name="colorPrimaryDark">#cb9ca1</color>
-  <color name="colorAccent">#cb9ca1</color>
+  <color name="colorPrimary">#d1c4e9</color>
+  <color name="colorPrimaryLight">#fff7ff</color>
+  <color name="colorPrimaryDark">#a094b7</color>
+  <color name="colorAccent">#a094b7</color>
   <color name="primaryTextColor">#ffff</color>
   <color name="grey300">#e0e0e0e0</color>
   <color name="toolbarTextColor">#fff</color>
 
   <!-- ROCK COLORS -->
-  <color name="rockColorPrimary">#b71c1c</color>
-  <color name="rockColorPrimaryDark">#7f0000</color>
-  <color name="rockColorPrimaryLight">#f05545</color>
-  <color name="rockColorDarkest">#560000</color>
+  <color name="rockColorPrimary">#8b5564</color>
+  <color name="rockColorPrimaryDark">#5c2b3a</color>
+  <color name="rockColorPrimaryLight">#bc8292</color>
+  <color name="rockColorDarkest">#270a13</color>
   <!-- RAP COLORS -->
-  <color name="rapColorPrimary">#9e9e9e</color>
-  <color name="rapColorPrimaryDark">#707070</color>
-  <color name="rapColorPrimaryLight">#cfcfcf</color>
-  <color name="rapColorDarkest">#1b1b1b</color>
-  <color name="rapTextColor">#fff</color>
+  <color name="rapColorPrimary">#e9e9e9</color>
+  <color name="rapColorPrimaryDark">#b7b7b7</color>
+  <color name="rapColorPrimaryLight">#ffffff</color>
+  <color name="rapColorDarkest">#808080</color>
   <!-- JAZZ COLORS -->
-  <color name="jazzColorPrimary">#4db6ac</color>
-  <color name="jazzColorPrimaryDark">#00867d</color>
-  <color name="jazzColorPrimaryLight">#e5ffff</color>
-  <color name="jazzColorDarkest">#003d33</color>
+  <color name="jazzColorPrimary">#a59b7c</color>
+  <color name="jazzColorPrimaryDark">#766d50</color>
+  <color name="jazzColorPrimaryLight">#d7ccab</color>
+  <color name="jazzColorDarkest">#363220</color>
   <!-- POP COLORS -->
-  <color name="popColorPrimary">#ec407a</color>
-  <color name="popColorPrimaryDark">#b4004e</color>
-  <color name="popColorPrimaryLight">#ff77a9</color>
-  <color name="popColorDarkest">#78002e</color>
+  <color name="popColorPrimary">#ef9a9a</color>
+  <color name="popColorPrimaryDark">#ba6b6c</color>
+  <color name="popColorPrimaryLight">#ffcccb</color>
+  <color name="popColorDarkest">#af4448</color>
   <!-- SOUL COLORS -->
-  <color name="soulColorPrimary">#ffb300</color>
-  <color name="soulColorPrimaryDark">#c68400</color>
-  <color name="soulColorPrimaryLight">#ffe54c</color>
-  <color name="soulColorDarkest">#c56000</color>
+  <color name="soulColorPrimary">#ee9248</color>
+  <color name="soulColorPrimaryDark">#b76419</color>
+  <color name="soulColorPrimaryLight">#ffc376</color>
+  <color name="soulColorDarkest">#6b3402</color>
 </resources>

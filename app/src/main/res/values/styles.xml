@@ -2,7 +2,7 @@
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
-        <!--<item name="colorPrimary">@color/colorPrimary</item> -->
+        <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
@@ -15,6 +15,8 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
         <item name="topColor">@color/colorPrimary</item>
+        <item name="bottomColor">@color/colorPrimaryLight</item>
+        <item name="toolbarColor">@color/colorPrimaryDark</item>
     </style>
 
     <style name="AlbumInfoThemeRock" parent="Theme.AppCompat.Light.NoActionBar">
@@ -28,20 +30,18 @@
     </style>
 
     <style name="AlbumInfoThemeRap" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/rapColorPrimary</item>
         <item name="colorPrimaryDark">@color/rapColorDarkest</item>
         <item name="colorAccent">@color/rapColorPrimaryDark</item>
         <item name="colorControlHighlight">@color/rapColorPrimary</item>
         <item name="toolbarColor">@color/rapColorPrimaryDark</item>
         <item name="topColor">@color/rapColorPrimary</item>
         <item name="bottomColor">@color/rapColorPrimaryLight</item>
-        <item name="android:actionBarTheme">@style/RapToolbarTheme</item>
     </style>
 
-    <style name="RapToolbarTheme">
-        <item name="android:colorControlNormal">#fff</item>
-    </style>
 
     <style name="AlbumInfoThemeJazz" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/jazzColorPrimary</item>
         <item name="colorPrimaryDark">@color/jazzColorDarkest</item>
         <item name="colorAccent">@color/jazzColorPrimaryDark</item>
         <item name="colorControlHighlight">@color/jazzColorPrimary</item>
@@ -51,6 +51,7 @@
     </style>
 
     <style name="AlbumInfoThemePop" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/popColorPrimary</item>
         <item name="colorPrimaryDark">@color/popColorDarkest</item>
         <item name="colorAccent">@color/popColorPrimaryDark</item>
         <item name="colorControlHighlight">@color/popColorPrimary</item>
@@ -60,6 +61,7 @@
     </style>
 
     <style name="AlbumInfoThemeSoul" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/soulColorPrimary</item>
         <item name="colorPrimaryDark">@color/soulColorDarkest</item>
         <item name="colorAccent">@color/soulColorPrimaryDark</item>
         <item name="colorControlHighlight">@color/soulColorPrimary</item>
