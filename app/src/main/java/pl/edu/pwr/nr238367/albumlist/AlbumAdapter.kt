@@ -13,6 +13,7 @@ class AlbumAdapter(private val dataSet: List<Album>) : RecyclerView.Adapter<Albu
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): AlbumAdapter.ViewHolder{
         val view: View = LayoutInflater.from(parent.context).inflate(R.layout.row_album,parent,false)
         val holder = ViewHolder(view)
+        //on album click open activity with more info
         view.setOnClickListener {
             parent.context.startActivity(parent.context.intentFor<AlbumInfoActivity>(parent.context.getString(R.string.EXTRA_ALBUM_ID) to holder.adapterPosition).singleTop())
         }
@@ -29,12 +30,9 @@ class AlbumAdapter(private val dataSet: List<Album>) : RecyclerView.Adapter<Albu
         rowView.artistName.text = album.artistName
         if(album.photos.isNotEmpty()){
             val coverArtId = rowView.context.resources.getIdentifier(album.photos[0],"drawable", rowView.context.packageName)
-            rowView.albumCoverSmall.setImageResource( coverArtId)
+            rowView.albumCoverSmall.setImageResource(coverArtId)
         }
-
-
     }
-
     class ViewHolder(val rowView: View) : RecyclerView.ViewHolder(rowView)
 
 }

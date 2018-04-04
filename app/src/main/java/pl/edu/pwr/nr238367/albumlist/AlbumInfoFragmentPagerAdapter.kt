@@ -7,7 +7,6 @@ import android.support.v4.app.FragmentPagerAdapter
 
 
 class AlbumInfoFragmentPagerAdapter(fragmentManager: FragmentManager, context: Context, private val albumId:Int):FragmentPagerAdapter(fragmentManager) {
-    private val PAGE_COUNT = 2
     private val PAGE_TITLES = arrayOf(context.getString(R.string.tab1_title), context.getString(R.string.tab2_title))
     override fun getItem(position: Int): Fragment {
         return if(position == 0){
@@ -26,4 +25,7 @@ class AlbumInfoFragmentPagerAdapter(fragmentManager: FragmentManager, context: C
         return PAGE_TITLES[position]
     }
 
+    companion object {
+        private const val PAGE_COUNT = 2
+    }
 }

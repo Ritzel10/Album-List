@@ -27,7 +27,6 @@ class MainActivity: AppCompatActivity() {
         }
         addDividersBetweenElements()
         deleteElementsOnSwipe()
-
     }
 
     private fun onElementSwiped(viewHolder: RecyclerView.ViewHolder?) {

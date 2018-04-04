@@ -23,14 +23,14 @@ class PeopleListAdapter(val context: Context, private val people: List<Person>) 
 
     override fun getView(position: Int, convertView: View?, container: ViewGroup): View {
         val newConvertView = convertView ?: LayoutInflater.from(context).inflate(R.layout.row_people, container, false)
-        val p = getItem(position)
-        newConvertView.personName?.text = p.fullName
+        val person = getItem(position)
+        newConvertView.personName?.text = person.fullName
         try {
-            newConvertView.personAge?.text = p.calculateAge().toString()
+            newConvertView.personAge?.text = person.calculateAge().toString()
         } catch (ex: IllegalArgumentException) {
             ex.printStackTrace()
         }
-        if(p.isDead){
+        if (person.isDead) {
             newConvertView.personImage.setImageResource(R.drawable.ic_rip3)
         }
         return newConvertView
