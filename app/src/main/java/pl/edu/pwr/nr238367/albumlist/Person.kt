@@ -2,14 +2,12 @@ package pl.edu.pwr.nr238367.albumlist
 
 import org.joda.time.DateTime
 import org.joda.time.Years
+import java.util.*
 
-import java.util.Calendar
-import java.util.Date
-
-class Person( var firstName: String,  var lastName: String,  var birthday: Date, var dayOfDeath: Date?) {
+class Person(var firstName: String, var lastName: String, var birthday: Date = Calendar.getInstance().time, var dayOfDeath: Date? = null) {
 
     val fullName: String
-        get() = firstName + " " + lastName
+        get() = "$firstName $lastName"
 
     val isDead: Boolean
         get() = dayOfDeath != null

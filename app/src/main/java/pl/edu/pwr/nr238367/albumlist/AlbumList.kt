@@ -32,15 +32,3 @@ object AlbumList {
 }
 
 
-fun Calendar.createDate(day: Int, month: Int, year: Int): Date {
-    try {
-        this.apply {
-            set(Calendar.DAY_OF_MONTH, day)
-            set(Calendar.MONTH, month)
-            set(Calendar.YEAR, year)
-        }
-        return this.time
-    } catch (e: IndexOutOfBoundsException) {
-        throw IllegalArgumentException()
-    }
-}

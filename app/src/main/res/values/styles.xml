@@ -1,15 +1,71 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--<item name="colorPrimary">@color/colorPrimary</item> -->
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
-        <item name="colorControlHighlight">@color/colorPrimary</item>
-
     </style>
     <style name="MyActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="android:background"> @color/colorPrimary</item>
     </style>
+
+    <style name="AlbumInfoTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="topColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="AlbumInfoThemeRock" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/rockColorPrimary</item>
+        <item name="colorPrimaryDark">@color/rockColorDarkest</item>
+        <item name="colorAccent">@color/rockColorPrimaryDark</item>
+        <item name="colorControlHighlight">@color/rockColorPrimary</item>
+        <item name="toolbarColor">@color/rockColorPrimaryDark</item>
+        <item name="topColor">@color/rockColorPrimary</item>
+        <item name="bottomColor">@color/rockColorPrimaryLight</item>
+    </style>
+
+    <style name="AlbumInfoThemeRap" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">@color/rapColorDarkest</item>
+        <item name="colorAccent">@color/rapColorPrimaryDark</item>
+        <item name="colorControlHighlight">@color/rapColorPrimary</item>
+        <item name="toolbarColor">@color/rapColorPrimaryDark</item>
+        <item name="topColor">@color/rapColorPrimary</item>
+        <item name="bottomColor">@color/rapColorPrimaryLight</item>
+        <item name="android:actionBarTheme">@style/RapToolbarTheme</item>
+    </style>
+
+    <style name="RapToolbarTheme">
+        <item name="android:colorControlNormal">#fff</item>
+    </style>
+
+    <style name="AlbumInfoThemeJazz" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">@color/jazzColorDarkest</item>
+        <item name="colorAccent">@color/jazzColorPrimaryDark</item>
+        <item name="colorControlHighlight">@color/jazzColorPrimary</item>
+        <item name="toolbarColor">@color/jazzColorPrimaryDark</item>
+        <item name="topColor">@color/jazzColorPrimary</item>
+        <item name="bottomColor">@color/jazzColorPrimaryLight</item>
+    </style>
+
+    <style name="AlbumInfoThemePop" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">@color/popColorDarkest</item>
+        <item name="colorAccent">@color/popColorPrimaryDark</item>
+        <item name="colorControlHighlight">@color/popColorPrimary</item>
+        <item name="toolbarColor">@color/popColorPrimaryDark</item>
+        <item name="topColor">@color/popColorPrimary</item>
+        <item name="bottomColor">@color/popColorPrimaryLight</item>
+    </style>
+
+    <style name="AlbumInfoThemeSoul" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">@color/soulColorDarkest</item>
+        <item name="colorAccent">@color/soulColorPrimaryDark</item>
+        <item name="colorControlHighlight">@color/soulColorPrimary</item>
+        <item name="toolbarColor">@color/soulColorPrimaryDark</item>
+        <item name="topColor">@color/soulColorPrimary</item>
+        <item name="bottomColor">@color/soulColorPrimaryLight</item>
+    </style>
+
 </resources>

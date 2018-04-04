@@ -1,8 +1,38 @@
 <!--?xml version="1.0" encoding="UTF-8"?-->
 <resources>
-  <color name="colorPrimary">#00796b</color>
-  <color name="colorPrimaryLight">#48a999</color>
-  <color name="colorPrimaryDark">#004c40</color>
-    <color name="colorAccent"> #004c40</color>
+  <!--  MAIN COLORS -->
+  <color name="colorPrimary">#ffcdd2</color>
+  <color name="colorPrimaryLight">#ffffff</color>
+  <color name="colorPrimaryDark">#cb9ca1</color>
+  <color name="colorAccent">#cb9ca1</color>
   <color name="primaryTextColor">#ffff</color>
+  <color name="grey300">#e0e0e0e0</color>
+  <color name="toolbarTextColor">#fff</color>
+
+  <!-- ROCK COLORS -->
+  <color name="rockColorPrimary">#b71c1c</color>
+  <color name="rockColorPrimaryDark">#7f0000</color>
+  <color name="rockColorPrimaryLight">#f05545</color>
+  <color name="rockColorDarkest">#560000</color>
+  <!-- RAP COLORS -->
+  <color name="rapColorPrimary">#9e9e9e</color>
+  <color name="rapColorPrimaryDark">#707070</color>
+  <color name="rapColorPrimaryLight">#cfcfcf</color>
+  <color name="rapColorDarkest">#1b1b1b</color>
+  <color name="rapTextColor">#fff</color>
+  <!-- JAZZ COLORS -->
+  <color name="jazzColorPrimary">#4db6ac</color>
+  <color name="jazzColorPrimaryDark">#00867d</color>
+  <color name="jazzColorPrimaryLight">#e5ffff</color>
+  <color name="jazzColorDarkest">#003d33</color>
+  <!-- POP COLORS -->
+  <color name="popColorPrimary">#ec407a</color>
+  <color name="popColorPrimaryDark">#b4004e</color>
+  <color name="popColorPrimaryLight">#ff77a9</color>
+  <color name="popColorDarkest">#78002e</color>
+  <!-- SOUL COLORS -->
+  <color name="soulColorPrimary">#ffb300</color>
+  <color name="soulColorPrimaryDark">#c68400</color>
+  <color name="soulColorPrimaryLight">#ffe54c</color>
+  <color name="soulColorDarkest">#c56000</color>
 </resources>
